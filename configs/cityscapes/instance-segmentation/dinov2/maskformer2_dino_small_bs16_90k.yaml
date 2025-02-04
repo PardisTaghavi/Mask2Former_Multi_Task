@@ -1,0 +1,11 @@
+_BASE_: ../maskformer2_R50_bs16_90k.yaml
+MODEL:
+  BACKBONE:
+    NAME: "DINOv2Backbone"
+  DINOv2:
+    ENCODER_SIZE: "small"
+    OUT_CHANNELS: [96, 192, 384, 768] #
+    USE_BN: True
+    EMBED_DIM: 384 #pretrained dino v2 small
+  PIXEL_MEAN: [123.675, 116.280, 103.530]
+  PIXEL_STD: [58.395, 57.120, 57.375]
