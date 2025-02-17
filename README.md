@@ -2,7 +2,7 @@ for personal use - please refer to original rep.
 
 data to download
 
-```https://drive.google.com/file/d/1rzaJ-zFzqIuPeYtEI26LEHyRm5yOTfFN/view?usp=sharing```
+```https://drive.google.com/file/d/1rzaJzFzqIuPeYtEI26LEHyRm5yOTfFN/view?usp=sharing```
 
 installation
 
