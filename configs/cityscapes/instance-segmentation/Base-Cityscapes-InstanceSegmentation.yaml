@@ -17,8 +17,8 @@ DATASETS:
   TRAIN: ("cityscapes_fine_instance_seg_train",)
   TEST: ("cityscapes_fine_instance_seg_val",)
 SOLVER:
-  IMS_PER_BATCH: 8
-  BASE_LR: 0.00004 # 5e-5
+  IMS_PER_BATCH: 4
+  BASE_LR: 0.00005 # 5e-5
   MAX_ITER: 90000 #120k
   WARMUP_FACTOR: 1.0
   WARMUP_ITERS: 0
