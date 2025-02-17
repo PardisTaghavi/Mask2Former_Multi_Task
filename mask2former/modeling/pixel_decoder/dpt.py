@@ -13,7 +13,7 @@ import torch.nn.functional as F
 from torch.amp import autocast
 
 # from dinoV2_dpt_models.backbone.dinov2 import DINOv2 #backbone
-path = "/home/avalocal/Mask2Former/mask2former/modeling/pixel_decoder"
+path = "/home/avalocal/thesis23/KD/Mask2Former_Multi_Task/mask2former/modeling/pixel_decoder"
 
 sys.path.append(path)
 
