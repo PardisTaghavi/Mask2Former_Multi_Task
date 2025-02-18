@@ -26,6 +26,8 @@ cd mask2former/modeling/pixel_decoder/ops
 sh make.sh
 ```
 
+Download dinov2s : https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth
+
 ```
 export DETECTRON2_DATASETS=/path/to/datasets
 
