@@ -27,6 +27,8 @@ sh make.sh
 ```
 
 ```
+export DETECTRON2_DATASETS=/path/to/datasets
+
 python train_net.py --num-gpus 2 --config-file configs/cityscapes/instance-segmentation/dinov2/maskformer2_dino_small_bs16_90k.yaml 
 
 ```
