@@ -29,6 +29,8 @@ sh make.sh
 Download dinov2s : https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth
 
 ```
+pip3 install -U xformers --index-url https://download.pytorch.org/whl/cu126
+
 export DETECTRON2_DATASETS=/path/to/datasets
 
 python train_net.py --num-gpus 2 --config-file configs/cityscapes/instance-segmentation/dinov2/maskformer2_dino_small_bs16_90k.yaml 
