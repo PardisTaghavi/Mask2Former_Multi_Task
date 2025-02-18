@@ -26,3 +26,8 @@ cd mask2former/modeling/pixel_decoder/ops
 sh make.sh
 ```
 
+```
+python train_net.py --num-gpus 2 --config-file configs/cityscapes/instance-segmentation/dinov2/maskformer2_dino_small_bs16_90k.yaml 
+
+```
+
